@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.get('/home', (req,res)=>{
+app.get('/ibm', (req,res)=>{
 res.send('Welcome To World rest api')
 
 
